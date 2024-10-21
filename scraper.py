@@ -12,7 +12,6 @@ def soup_sort():
     with open("capitoltrades_content_with_js.html", "r", encoding="utf-8") as file:
         soup = BeautifulSoup(file, "lxml")
 
-    # Find all <tr> tags with the specified class for each row
     rows = soup.find_all("tr", class_="border-b transition-colors hover:bg-neutral-100/50 data-[state=selected]:bg-neutral-100 dark:hover:bg-neutral-800/50 dark:data-[state=selected]:bg-neutral-800 h-14 border-primary-15")
     
     # Loop through each row and extract relevant details
@@ -21,7 +20,7 @@ def soup_sort():
         name_tag = row.find("h2", class_="politician-name")
         politician_name = name_tag.get_text(strip=True) if name_tag else None
         
-        # Politician's Info (Party, Chamber, State)
+        # Politician's Info (party, chamber, state)
         info_tag = row.find("div", class_="politician-info")
         party = info_tag.find("span", class_="party").get_text(strip=True) if info_tag.find("span", class_="party") else None
         chamber = info_tag.find("span", class_="chamber").get_text(strip=True) if info_tag.find("span", class_="chamber") else None
@@ -60,14 +59,11 @@ def soup_sort():
     return rows
 
 def get_webpage_content_with_js(url, wait_time=10, use_brave=False):
-    # Set up Chrome/Brave options
+   
     chrome_options = Options()
     chrome_options.add_argument("--headless")  # Run in headless mode (no GUI)
 
-    # Set up the ChromeDriver service using webdriver_manager
     service = ChromeService(ChromeDriverManager().install())
-
-    # Create a new Chrome/Brave driver
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     try:
@@ -78,8 +74,6 @@ def get_webpage_content_with_js(url, wait_time=10, use_brave=False):
         WebDriverWait(driver, wait_time).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "body"))
         )
-
-        # Additional delay to allow for any remaining dynamic content to load
         time.sleep(5)
 
         # Get the page source after JavaScript execution
@@ -89,19 +83,16 @@ def get_webpage_content_with_js(url, wait_time=10, use_brave=False):
         # print("\nFirst 1000 characters of the webpage content:")
         # print(content[:1000])
 
-        # Optionally, save the content to a file
         with open('capitoltrades_content_with_js.html', 'w', encoding='utf-8') as f:
             f.write(content)
         # print("\nFull content has been saved to 'capitoltrades_content_with_js.html'")
 
     finally:
-        # Make sure to close the browser
         driver.quit()
 
 # URL of the webpage
 url = "https://www.capitoltrades.com/trades?chamber=senate&pageSize=24"
-
-# Call the function to get the webpage content using Chrome
+## TODO this is kinda slow i want to find a better option
 get_webpage_content_with_js(url, use_brave=False)
-rows = soup_sort()
+trades = soup_sort()
 print(f"{rows[1]}")
