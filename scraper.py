@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
-import time
+import time, json
 from bs4 import BeautifulSoup
 
 def soup_sort():
@@ -13,7 +13,8 @@ def soup_sort():
         soup = BeautifulSoup(file, "lxml")
 
     rows = soup.find_all("tr", class_="border-b transition-colors hover:bg-neutral-100/50 data-[state=selected]:bg-neutral-100 dark:hover:bg-neutral-800/50 dark:data-[state=selected]:bg-neutral-800 h-14 border-primary-15")
-    
+    datum = [] #empty arr for json entries
+
     # Loop through each row and extract relevant details
     for row in rows:
         # Politician's Name
@@ -56,6 +57,21 @@ def soup_sort():
         print(f"Transaction Type:   {transaction_type}")
         print(f"Transaction Amount: {transaction_amount}")
         print("\n" + "-"*40 + "\n")
+
+        data = {
+            "Politician Name": politician_name,
+            "Party": party,
+            "Chamber": chamber,
+            "State": state,
+            "Traded Issuer": traded_issuer,
+            "Transaction Date": transaction_date,
+            "Transaction Type": transaction_type,
+            "Transaction Amount": transaction_amount
+        }
+        datum.append(data)
+
+    with open('trades.json', 'w') as json_file:
+        json.dump(datum, json_file, indent=4)
     return rows
 
 def get_webpage_content_with_js(url, wait_time=10, use_brave=False):
@@ -95,4 +111,3 @@ url = "https://www.capitoltrades.com/trades?chamber=senate&pageSize=24"
 ## TODO this is kinda slow i want to find a better option
 get_webpage_content_with_js(url, use_brave=False)
 trades = soup_sort()
-print(f"{rows[1]}")
