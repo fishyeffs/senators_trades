@@ -9,7 +9,7 @@ import time, json
 from bs4 import BeautifulSoup
 
 def soup_sort():
-    with open("capitoltrades_content_with_js.html", "r", encoding="utf-8") as file:
+    with open("capitoltrades_content.html", "r", encoding="utf-8") as file:
         soup = BeautifulSoup(file, "lxml")
 
     rows = soup.find_all("tr", class_="border-b transition-colors hover:bg-neutral-100/50 data-[state=selected]:bg-neutral-100 dark:hover:bg-neutral-800/50 dark:data-[state=selected]:bg-neutral-800 h-14 border-primary-15")
@@ -70,12 +70,11 @@ def soup_sort():
         }
         datum.append(data)
 
-    with open('trades.json', 'w') as json_file:
+    with open('../res/trades.json', 'w') as json_file:
         json.dump(datum, json_file, indent=4)
     return rows
 
 def get_webpage_content_with_js(url, wait_time=10, use_brave=False):
-   
     chrome_options = Options()
     chrome_options.add_argument("--headless")  # Run in headless mode (no GUI)
 

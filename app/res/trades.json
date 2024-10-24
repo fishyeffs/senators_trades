@@ -1,0 +1,242 @@
+[
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "Fiserv Inc",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "sell",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "Vanguard FTSE Developed Markets ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "sell",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "Vanguard Global ex-U.S. Real Estate ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "sell",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "SPDR MidCap 400 ETF Trust",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "sell",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "Managed Portfolio Series Tortoise North American Pipeline Fund",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "sell",
+        "Transaction Amount": "15K\u201350K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares Core S&P 500 ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "sell",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares Trust - iShares Russell 2000 ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "sell",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares MSCI EAFE ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "sell",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "First Trust North American Energy Infrastructure Fund",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "sell",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "WESTWOOD QUALITY SMALLCAP FUND",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "sell",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "Schwab US TIPS ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "Janus Henderson Mortgage-Backed Securities ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares Core S&P 500 ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares 7-10 Year Treasury Bond ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares 1-3 Year Treasury Bond ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares 10-20 Year Treasury Bond ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares CMBS ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares 3-7 Year Treasury Bond ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares Trust iShares 20 Year Treasury Bond ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares MBS ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "iShares Agency Bond ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "INVESCO SHORT TERM TREAS ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "15K\u201350K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "Goldman Sachs Access Investment Grade Corporate Bond ETF",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "1K\u201315K"
+    },
+    {
+        "Politician Name": "John Boozman",
+        "Party": "Republican",
+        "Chamber": "Senate",
+        "State": "AR",
+        "Traded Issuer": "FIRST TR GLOBAL TACTICAL CMD",
+        "Transaction Date": "18 Oct 2024",
+        "Transaction Type": "buy",
+        "Transaction Amount": "15K\u201350K"
+    }
+]
