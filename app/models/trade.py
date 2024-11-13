@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+## pydantic api trade model
 class Trade(BaseModel):
     politician_name: str
     party: str

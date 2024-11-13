@@ -5,4 +5,3 @@ selenium
 beautifulsoup4
 webdriver_manager
 lxml
-sqlalchemy
